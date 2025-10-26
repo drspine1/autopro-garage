@@ -12,7 +12,7 @@ import PromotionSection from "@/components/PromotionSection";
 import WhyChooseUs from "@/components/Choose";
 import TrustBanner from "@/components/Banner";
 import ContactComponent from "@/components/ContactComponent";
-
+import GarageGallery from "@/components/GarageGallery";
 export default function Page() {
   return (
     <div className="min-h-screen bg-[#121212]">
@@ -27,6 +27,7 @@ export default function Page() {
       <TrustBanner/>
        <Reviews />
        <CarAdvice/>
+       <GarageGallery/>
        <ContactComponent/>
         <Footer />  
       </main>
